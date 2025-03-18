@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  margin:0;
+}
+.imgContainer{
+  position: relative;
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  margin: 10% 10%;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.imgContainer :first-child{
+  display: block;
+}
+.btn{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: none;
+  align-items: center;
+}
+.btn button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New HTML Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Tip Claculator</h1>
+    <div class="calculation">
+        <p>Amount</p>
+        <input type="number" name="" id="total" placeholder="Please Enter a Amount">
+         <p>How was the service</p>
+        <select name="" id="select">
+            <option value="" selected hidden>Select</option>
+            <option value="0.25">25%-Top Notch</option>
+            <option value="0.20">20%-Excellent</option>
+            <option value="0.15">15%good</option>
+            <option value="0.10">10%Bad</option>
+            <option value="0.5">5%Worst</option>
+        </select>
+       
+        <p>Total Persons</p>
+        <input type="number" name="" id="persons" placeholder="Enter Total Persons">
+
+        <button onclick="Result()">Claculate</button>
+    </div>
+    <div id="output">
+        <p>Tip</p>
+        <span id="perperson"></span>
+        <span id="each">each</span>
+    </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

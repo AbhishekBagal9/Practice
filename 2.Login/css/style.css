@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+#login{
+ text-align: center;
+ background-color:aquamarine;
+ border: none;
+ width: 60px;
+ height: 33px;
+ cursor: pointer;
+ border-radius: 5px;
+ margin: 20px 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    gap: 10px;
+}
+
+#lgn{ background-color: aqua; border: none; height:20px; 
+    border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px;
+
+}
+form{
+    width: 500px;
+    box-shadow: 5px 10px 15px black;
+    display: flex;
+    position: relative;
+    gap: 10px;
+    flex-direction: column;
+   padding: 10px 20px;
+   display: none;
+}
+
+
+.img{
+    text-align: center;
+}
+.img img{
+    border-radius: 50%;
+}
+.del{
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.del:hover{
+    background-color:red;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }

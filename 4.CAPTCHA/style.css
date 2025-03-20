@@ -1,0 +1,15 @@
+.captcha{
+    display: flex;
+    gap: 5px;
+}
+.retry{
+   border: none;
+   background: none;
+   font-size: 24px;
+}
+#captchagen{
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: line-through;
+}

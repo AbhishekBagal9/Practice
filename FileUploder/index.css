@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+   margin-top: 50px;
+   min-height: 300px;
+   width:400px;
+   
+   text-align: center;
+   border: 4px dashed blue;
+   color: blue;
+
+}
+.container i{
+    font-size: 80px;
+    margin-top: 20px;
+}
+#filearea{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+} 
+#filearea .row{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+}
+#filearea .row i{
+    font-size: 40px;
+}
